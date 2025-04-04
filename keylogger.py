@@ -10,8 +10,9 @@ def on_release(key):
     print(key)
 
 
-with keyboard.Listener(
+listener = keyboard.Listener(
     on_press=on_press,
     on_release=on_release
-) as listener:
-    listener.start()
+)
+
+listener.start()
