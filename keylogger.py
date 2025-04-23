@@ -18,11 +18,11 @@ def main():
 
     keyboard.on_press(on_key_press)
 
-    try:
-        keyboard.wait("esc")
-        print("Exiting the program.")
-    except KeyboardInterrupt:
-        print("Program interrupted by user.")
+    # try:
+    #     keyboard.wait("esc")
+    #     print("Exiting the program.")
+    # except KeyboardInterrupt:
+    #     print("Program interrupted by user.")
 
 
 if __name__ == "__main__":
